@@ -53,7 +53,7 @@
 
 
   /* topnav responsive */
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 400px) {
     .topnav {
       width: 50%;
       margin-left: 28%;
@@ -62,7 +62,7 @@
   }
 
 
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 200px) {
     .topnav {
       width: 100%;
       visibility: hidden;
@@ -114,7 +114,7 @@
 
 
   /* Responsive layout - makes a two column-layout instead of four columns */
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 400px) {
     .topnav2 {
       width: 50%;
       visibility: visible;
@@ -123,7 +123,7 @@
   }
 
   /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 200px) {
     .topnav2 {
       width: 100%;
       visibility: visible;
@@ -148,7 +148,7 @@
   }
 
   /* Responsive layout - makes a two column-layout instead of four columns */
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 400px) {
     .title {
       width: 50%;
       visibility: visible;
@@ -157,7 +157,7 @@
   }
 
   /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 200px) {
     .title {
       width: 100%;
       visibility: visible;
@@ -215,7 +215,7 @@
 
 
   /* Responsive layout - makes a two column-layout instead of four columns */
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 400px) {
     .name {
       margin-top: 10%;
       margin-left: 20%
@@ -223,7 +223,7 @@
   }
 
   /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 200px) {
     .name {
       margin-top: 10%;
       margin-left: 20%;
@@ -243,17 +243,17 @@
   }
 
   /* Responsive layout - makes a two column-layout instead of four columns */
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 400px) {
     .aboutme {
       margin-top: 10%;
       margin-left: 11% text-align:center;
       font-size: 15px;
-      width: 400px;
+      width: 200px;
     }
   }
 
   /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 200px) {
     .aboutme {
       margin-top: 10%;
       margin-left: 11%;
@@ -272,7 +272,7 @@
 
 
   /* Responsive layout - makes a two column-layout instead of four columns */
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 400px) {
     .foto {
       max-width: 250px;
       margin-left: 25%
@@ -280,7 +280,7 @@
   }
 
   /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 200px) {
     .foto {
       max-width: 250px;
       margin-left: 25%;
@@ -357,7 +357,7 @@
 
 
   /* Responsive layout - makes a two column-layout instead of four columns */
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 200px) {
     .buttons {
       width: 50%;
       margin-left: 33%;
@@ -366,7 +366,7 @@
   }
 
   /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 200px) {
     .titel {
       width: 100%;
       margin-left: 5%;
@@ -382,114 +382,6 @@
 
   /* cv pagina */
 
-  /* projecten */
-  * {
-    box-sizing: border-box;
-  }
-
-  .content p {
-    font-family: sans-serif;
-    color: white;
-    font-weight: bold;
-  }
-
-  h3 {
-    color: rgb(136, 131, 131);
-    font-weight: bold;
-  }
-
-  /* Center website */
-  .main {
-    max-width: 1000px;
-    margin: auto;
-  }
-
-  h1 {
-    font-size: 50px;
-    word-break: break-all;
-  }
-
-  .row {
-    margin: 8px -16px;
-  }
-
-  /* Add padding BETWEEN each column */
-  .row,
-  .row>.column {
-    padding: 8px;
-  }
-
-  /* Create four equal columns that floats next to each other */
-  .column {
-    float: left;
-    width: 25%;
-
-  }
-
-  /* Clear floats after rows */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-
-  /* Content */
-  .content {
-    background-color: rgb(36, 35, 35);
-    padding: 10px;
-    border-radius: 20px;
-  }
-
-
-
-  /* Responsive layout - makes a two column-layout instead of four columns */
-  @media screen and (max-width: 600px) {
-    .column {
-      width: 50%;
-    }
-  }
-
-  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 400px) {
-    .column {
-      width: 100%;
-    }
-  }
-
-
-
-  .button {
-    background-color: purple;
-    /* Green */
-    border: none;
-    color: white;
-    padding: 15px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    width: 200px;
-  }
-
-  .button4 {
-    border-radius: 20px;
-  }
-
-  .button4:hover {
-    transition-duration: 0.6s;
-    background-color: rgb(170, 25, 170);
-    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
-  }
-
-  .button4:active {
-
-    transform: translateY(4px);
-  }
-
-
-  /* projecten */
 
   /* contact */
 
@@ -501,7 +393,7 @@
   }
 
   /* Responsive layout - makes a two column-layout instead of four columns */
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 400px) {
     .icons {
       width: 50%;
       visibility: visible;
@@ -510,7 +402,7 @@
   }
 
   /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 200px) {
     .icons {
       width: 100%;
       visibility: visible;
@@ -727,7 +619,7 @@
     margin: 0 5px;
   }
 
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 200px) {
     .screen-body {
       flex-direction: column;
     }
@@ -753,7 +645,7 @@
     }
   }
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 400px) {
     .screen-body {
       padding: 40px;
 
@@ -887,28 +779,28 @@
   /* footer */
 
   /* Responsive layout - makes a two column-layout instead of four columns */
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 400px) {
     .footer {
       top: 150%;
     }
   }
 
   /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 400px) {
     .footer {
       top: 150%;
     }
   }
 
   /* Responsive layout - makes a two column-layout instead of four columns */
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 400px) {
     .footer2 {
       top: 150%;
     }
   }
 
   /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 400px) {
     .footer2 {
       top: 150%;
     }
