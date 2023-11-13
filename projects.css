@@ -1,0 +1,420 @@
+html, body{
+    height: 100%;
+      }
+    
+*{
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+    /* placing */
+    .topnav ul li {
+    list-style: none;
+    display: inline;
+    margin-left: 250px;
+    
+    }
+    
+    
+    /* decorations */
+    .topnav a{
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        font-family: sans-serif;
+    position: absolute;
+    margin-top: 63px;
+    margin-left: 170px;
+    }
+    
+    .topnav a:hover{
+      color: purple;
+    }
+    
+    .topnav a::before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 4px;
+        border-radius: 4px;
+        background-color: #ffffff;
+        bottom: 0;
+        left: 0;
+        transform-origin: right;
+        transform: scaleX(0);
+        transition: transform .3s ease-in-out;
+      }
+      
+      .topnav a:hover::before {
+        transform-origin: left;
+        transform: scaleX(1);
+      }
+
+
+
+          /* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .topnav {
+    width: 50%;
+    margin-left: 28%;
+    visibility: hidden;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .topnav {
+    width: 100%;
+    visibility: hidden;
+  }
+}
+      
+
+/* hamburger menu */
+
+.topnav2 {
+  overflow: hidden;
+  background-color: transparent;
+  position: relative;
+  visibility: hidden;
+}
+
+.topnav2 #myLinks {
+  display: none;
+}
+
+.topnav2 a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav2 a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  left: 0;
+top:0;
+}
+
+
+.topnav2 a:hover{
+  color: purple;
+}
+
+
+.active2 {
+  background-color:transparent;
+}
+
+
+
+          /* Responsive layout - makes a two column-layout instead of four columns */
+          @media screen and (max-width: 900px) {
+            .topnav2 {
+              width: 50%;
+              visibility:visible;
+              margin-left:35%;
+            }
+          }
+          
+          /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+          @media screen and (max-width: 600px) {
+            .topnav2 {
+              width: 100%;
+              visibility: visible;
+            }
+          }
+
+
+/* hamburger menu */
+
+
+
+
+    
+    
+    .title{
+     margin-left: 100px;
+    font-size: 250%;
+    font-family:sans-serif;
+    font-weight: bold;
+    background-color: purple;
+    max-width: 12.5rem;
+    border-radius: 15px;
+    text-align: center;
+    }
+    /* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .title {
+    width: 50%;
+    margin-left: 28%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .title {
+    width: 100%;
+  }
+}
+    
+    
+    
+    .name{
+      font-family: sans-serif;
+      font-size: 60px;
+      margin-left: 45%;
+      margin-top: 8%;
+      color: white;
+    }
+    
+    
+    /* projecten */
+    * {
+      box-sizing: border-box;
+    }
+    
+    .content p{
+      font-family: sans-serif;
+      color: white;
+      font-weight: bold;
+    }
+    
+    h3{
+      color: rgb(136, 131, 131);
+      font-weight: bold;
+    }
+    
+    /* Center website */
+    .main {
+      max-width: 1000px;
+      margin: auto;
+    }
+    
+    .main hr{
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    h1 {
+      font-size: 50px;
+      word-break: break-all;
+    }
+    
+    .row {
+      margin: 8px -16px;
+      
+    }
+    
+    /* Add padding BETWEEN each column */
+    .row,
+    .row > .column {
+      padding: 8px;
+    }
+    
+    /* Create four equal columns that floats next to each other */
+    .column {
+      float: left;
+      width: 25%;
+ 
+    }
+    
+    /* Clear floats after rows */ 
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    
+    /* Content */
+    .content {
+      /* background-color:  rgb(36, 35, 35); */
+      padding: 10px;
+      border-radius: 20px;
+  border: 2px solid purple;
+  max-height: 350px;
+  background-color: transparent;
+
+    }
+    
+        /* Content */
+        .content2 {
+          /* background-color:  rgb(36, 35, 35); */
+          padding: 10px;
+          border-radius: 20px;
+      border: 2px solid purple;
+      max-height: auto;
+      background-color: transparent;
+        }
+        
+    /* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 100%;
+margin-left: 25%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .content {
+    width: 50%;
+    
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .button {
+    width: 100%;
+    
+  }
+}
+    
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .main hr {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .main hr {
+    width: 50%;
+  }
+}
+    
+    
+    .button {
+      background-color: purple; /* Green */
+      border: none;
+      color: white;
+      padding: 15px;
+      text-align: center;
+      text-decoration: none;  
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor:crosshair;
+      width: 200px;
+      margin-top: 12%;
+      border-radius: 90px;
+    }
+
+    .button2{
+      background-color: purple; /* Green */
+      border: none;
+      color: white;
+      padding: 15px;
+      text-align: center;
+      text-decoration: none;  
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor:crosshair;
+      width: 200px;
+      margin-top: 7%;
+      border-radius: 90px;
+    }
+    
+    
+    .button:hover{
+      transition-duration:  0.6s;
+     background-color: rgb(170, 25, 170);
+      box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    }
+    
+    .button:active {
+    
+      transform: translateY(4px);
+    }
+    
+
+ 
+  
+
+    /* projecten */
+    
+   
+    
+    
+    
+    
+    
+    
+    /* begin footer */
+    
+    
+      body{
+        margin:0;
+        overflow-x:hidden;
+        background-color: white;
+        }
+        
+        .footer{
+      position:absolute;
+      width: 100%;
+      top: 250%;
+      background-color: white;
+      color: white;
+      text-align: center;
+      
+        }
+      
+      
+        
+        .footer .row{
+        width:100%;
+        margin:1% 0%;
+        padding:0.6% 0%;
+        color:black;
+        font-size:0.8em;
+        }
+        
+        .footer .row a{
+        text-decoration:none;
+        color:black;
+        transition:0.5s;
+        }
+        
+        .footer .row a:hover{
+        color:black;
+        }
+        
+        .footer .row ul{
+        width:100%;
+        }
+        
+        .footer .row ul li{
+        display:inline-block;
+        margin:0px 30px;
+        }
+        
+        .footer .row a i{
+        font-size:2em;
+        margin:0% 1%;
+      
+        }
+        body{
+          background-color: black;
+        }
+
+    
+    /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 600px) {
+      .footer {
+        width: 100%;
+        position: absolute;
+        top: 300%;
+      }
+    }
+      /* footer */
