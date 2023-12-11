@@ -51,24 +51,6 @@
   }
 
 
-
-  /* topnav responsive */
-  @media screen and (max-width: 900px) {
-    .topnav {
-      width: 50%;
-      margin-left: 28%;
-      visibility: hidden;
-    }
-  }
-
-
-  @media screen and (max-width: 600px) {
-    .topnav {
-      width: 100%;
-      visibility: hidden;
-    }
-  }
-
   /* topnav responsive */
 
 
@@ -77,12 +59,16 @@
   .topnav2 {
     overflow: hidden;
     background-color: transparent;
-    position: relative;
+    position: absolute;
     visibility: hidden;
+    width: 100%;
+
   }
 
   .topnav2 #myLinks {
     display: none;
+    background-color:rgba(0, 0, 0, 0.7);
+
   }
 
   .topnav2 a {
@@ -101,34 +87,13 @@
     top: 0;
   }
 
-
-  .topnav2 a:hover {
-    color: purple;
-  }
-
-
-  .active2 {
-    background-color: transparent;
-  }
-
-
-
-  /* Responsive layout - makes a two column-layout instead of four columns */
-  @media screen and (max-width: 900px) {
-    .topnav2 {
-      width: 50%;
-      visibility: visible;
-      margin-left: 35%;
+    .links a{
+      font-size: 25px;
+      color: white;
+      text-decoration: underline purple;
     }
-  }
 
-  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
-    .topnav2 {
-      width: 100%;
-      visibility: visible;
-    }
-  }
+ 
 
   /* hamburger menu */
 
@@ -147,23 +112,7 @@
     text-align: center;
   }
 
-  /* Responsive layout - makes a two column-layout instead of four columns */
-  @media screen and (max-width: 900px) {
-    .title {
-      width: 50%;
-      visibility: visible;
-      margin-left: 31%;
-    }
-  }
-
-  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
-    .title {
-      width: 100%;
-      visibility: visible;
-    }
-  }
-
+ 
 
 
   .name {
@@ -214,21 +163,6 @@
   }
 
 
-  /* Responsive layout - makes a two column-layout instead of four columns */
-  @media screen and (max-width: 900px) {
-    .name {
-      margin-top: 10%;
-      margin-left: 20%
-    }
-  }
-
-  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
-    .name {
-      margin-top: 10%;
-      margin-left: 20%;
-    }
-  }
 
 
 
@@ -242,53 +176,15 @@
     margin-top: 1%;
   }
 
-  /* Responsive layout - makes a two column-layout instead of four columns */
-  @media screen and (max-width: 900px) {
-    .aboutme {
-      margin-top: 10%;
-      text-align:center;
-      font-size: 15px;
-      width: 300px;
-    }
-  }
-
-  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
-    .aboutme {
-      margin-top: 10%;
-      margin-left: 20%;
-      text-align: center;
-    }
-  }
-
+  
 
 
   .foto {
     border-radius: 50%;
     margin-top: 5%;
     margin-left: 10%;
-
+   width: 400px;
   }
-
-
-  /* Responsive layout - makes a two column-layout instead of four columns */
-  @media screen and (max-width: 900px) {
-    .foto {
-      max-width: 250px;
-      margin-left: 25%
-    }
-  }
-
-  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
-    .foto {
-      max-width: 250px;
-      margin-left: 25%;
-    }
-  }
-
-
-
 
 
 
@@ -358,30 +254,7 @@
   }
 
 
-  /* Responsive layout - makes a two column-layout instead of four columns */
-  @media screen and (max-width: 600px) {
-    .buttons {
-      margin-left: -12%;
-    }
-    .button{
-      width: 75%;
-    }
-
-  }
-
-  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
-    .titel {
-      width: 50%;
-      margin-left: 30%;
-    }
-
-    hr {
-      width: 88%;
-      margin-left: 8%;
-    }
-  }
-
+ 
 
 
   /* cv pagina */
@@ -396,23 +269,7 @@
     visibility: hidden;
   }
 
-  /* Responsive layout - makes a two column-layout instead of four columns */
-  @media screen and (max-width: 900px) {
-    .icons {
-      width: 50%;
-      visibility: visible;
-      margin-left: 27%
-    }
-  }
-
-  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
-    .icons {
-      width: 100%;
-      visibility: visible;
-      margin-top: 20px;
-    }
-  }
+ 
 
 
 
@@ -623,42 +480,6 @@
     margin: 0 5px;
   }
 
-  @media screen and (max-width: 600px) {
-    .screen-body {
-      flex-direction: column;
-    }
-
-    .screen {
-      margin-top: -300px;
-    }
-
-    .screen-body-item.left {
-      margin-bottom: 30px;
-    }
-
-    .app-title {
-      flex-direction: row;
-    }
-
-    .app-title span {
-      margin-right: 12px;
-    }
-
-    .app-title:after {
-      display: none;
-    }
-  }
-
-  @media screen and (max-width: 900px) {
-    .screen-body {
-      padding: 40px;
-
-    }
-
-    .screen-body-item {
-      padding: 0;
-    }
-  }
 
 
   /* contact */
@@ -782,48 +603,93 @@
 
   /* footer */
 
-  /* Responsive layout - makes a two column-layout instead of four columns */
-  @media screen and (max-width: 900px) {
-    .footer {
-      top: 150%;
+
+
+  /* Media Queries for Responsive Design */
+@media only screen and (max-width: 600px) {
+  .topnav ul {
+      display: none;
+  }
+
+  .mobile-container {
+      display: block;
+  }
+
+  .foto {
+    margin-top: 15%;
+width: 70%;
+margin-left: 15%;
+  }
+
+  .name {
+      font-size: 1.5em;
+    margin-top: 5%;
+    margin-left: 33%;
+  }
+
+  .aboutme {
+    font-size: 17px ;
+      padding: 0 20px;
+      width: 95%;
+      margin-left: 2%;
+  text-align: center;
+
+  }
+
+  .footer .row {
+      flex-direction: column;
+  }
+  .title{
+    margin-left: 25%;
+  }  
+
+  /* animation */
+  .name {
+    -moz-animation-duration: 3s;
+    -webkit-animation-duration: 2s;
+    -moz-animation-name: slidein-left;
+    -webkit-animation-name: slidein-left;
+  }
+
+  @-moz-keyframes slidein-left {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+
+    to {
+      margin-left: 0%;
+      width: 100%;
     }
   }
 
-  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 900px) {
-    .footer {
-      top: 150%;
+  @-webkit-keyframes slidein-left {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+
+    to {
+      margin-left: 33%;
+      width: 100%;
     }
   }
+/* animation */
 
-  /* Responsive layout - makes a two column-layout instead of four columns */
-  @media screen and (max-width: 900px) {
-    .footer2 {
-      top: 150%;
-    }
-  }
-
-  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 900px) {
-    .footer2 {
-      top: 150%;
-    }
-  }
-
-
-
-
+.topnav2{
+  visibility: visible;
+  margin-left: 35%;
+  position: absolute;
+margin-left: 0%;
+}
+.icon{
+  margin-left: 30%;
+}.active2{
+  margin-left: 30%;
+}.links{
+  text-align: center;
+}
+}
 
 
 
-
-
-
-
-
-
-
-
-
-
-  
