@@ -1,6 +1,6 @@
 html,
 body {
-  height: 100%;
+
 }
 
 * {
@@ -44,6 +44,7 @@ body {
   transform-origin: right;
   transform: scaleX(0);
   transition: transform .3s ease-in-out;
+
 }
 
 .topnav a:hover::before {
@@ -183,6 +184,7 @@ body {
   font-family: sans-serif;
   color: white;
   font-weight: bold;
+  font-size: 14px;
 }
 
 h3 {
@@ -199,6 +201,9 @@ h3 {
 .main hr {
   margin-top: 5%;
   margin-bottom: 5%;
+}
+hr{
+  break-after: 10px;
 }
 
 h1 {
@@ -219,9 +224,8 @@ h1 {
 
 /* Create four equal columns that floats next to each other */
 .column {
-  float: left;
   width: 25%;
-
+float: left;
 }
 
 /* Clear floats after rows */
@@ -240,6 +244,7 @@ h1 {
   max-height: 350px;
   background-color: transparent;
   transition: 0.3s;
+height: 350px;
 
 }
 
@@ -254,8 +259,11 @@ h1 {
 }
 
 .content:hover{
-padding: 15px;
+padding: 6px;
 }
+
+
+
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 900px) {
   .column {
@@ -301,6 +309,40 @@ padding: 15px;
   }
 }
 
+.cont-img{
+  min-height:155px ;
+  border-radius: 20px;
+}
+.button1 {
+  background-color: purple;
+  /* Green */
+  border: none;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: crosshair;
+  width: 210px;
+  border-radius: 90px;
+  margin-top: 15%;
+}
+.button0 {
+  background-color: grey  ;
+  /* Green */
+  border: none;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: crosshair;
+  width: 210px;
+  border-radius: 90px;
+  margin-top: 15%;
+}
 
 .button {
   background-color: purple;
@@ -313,13 +355,27 @@ padding: 15px;
   font-size: 16px;
   margin: 4px 2px;
   cursor: crosshair;
-  width: 200px;
-  margin-top: 12%;
+  width: 210px;
   border-radius: 90px;
+  margin-top: 10%;
 }
 
-.button2 {
+.button3 {
   background-color: purple;
+  /* Green */
+  border: none;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: crosshair;
+  width: 210px;
+  border-radius: 90px;
+  float: right;
+}
+.button-top0 {
+  background-color: grey;
   /* Green */
   border: none;
   color: white;
@@ -329,23 +385,38 @@ padding: 15px;
   font-size: 16px;
   margin: 4px 2px;
   cursor: crosshair;
-  width: 200px;
-  margin-top: 7%;
+  width: 210px;
   border-radius: 90px;
+  margin-top: 10%;
 }
 
 
+.button0:hover {
+  transition-duration: 0.6s;
+  background-color: rgb(180, 179, 179);
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+.button-top0:hover {
+  transition-duration: 0.6s;
+  background-color: rgb(180, 179, 179);
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+.button1:hover {
+  transition-duration: 0.6s;
+  background-color: rgb(170, 25, 170);
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
 .button:hover {
   transition-duration: 0.6s;
   background-color: rgb(170, 25, 170);
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
+
 .button:active {
 
   transform: translateY(4px);
 }
-
 
 
 
@@ -371,7 +442,7 @@ body {
 .footer {
   position: absolute;
   width: 100%;
-  top: 250%;
+  top: 350%;
   background-color: white;
   color: white;
   text-align: center;
