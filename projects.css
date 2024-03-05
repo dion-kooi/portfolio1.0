@@ -54,23 +54,6 @@ body {
 
 
 
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 900px) {
-  .topnav {
-    width: 50%;
-    margin-left: 28%;
-    visibility: hidden;
-  }
-}
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .topnav {
-    width: 100%;
-    visibility: hidden;
-  }
-}
-
 
 /* hamburger menu */
 
@@ -113,23 +96,6 @@ body {
 
 
 
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 900px) {
-  .topnav2 {
-    width: 50%;
-    visibility: visible;
-    margin-left: 35%;
-  }
-}
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .topnav2 {
-    width: 100%;
-    visibility: visible;
-  }
-}
-
 
 /* hamburger menu */
 
@@ -147,21 +113,6 @@ body {
   max-width: 12.5rem;
   border-radius: 15px;
   text-align: center;
-}
-
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 900px) {
-  .title {
-    width: 50%;
-    margin-left: 28%;
-  }
-}
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .title {
-    width: 100%;
-  }
 }
 
 
@@ -264,50 +215,7 @@ padding: 6px;
 
 
 
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 900px) {
-  .column {
-    width: 100%;
-    margin-left: 25%;
-  }
-}
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-  }
-}
-
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 900px) {
-  .content {
-    width: 50%;
-
-  }
-}
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .button {
-    width: 100%;
-
-  }
-}
-
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 900px) {
-  .main hr {
-    width: 50%;
-  }
-}
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .main hr {
-    width: 50%;
-  }
-}
 
 .cont-img{
   min-height:155px ;
@@ -488,13 +396,6 @@ body {
 }
 
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .footer {
-    width: 100%;
-    position: absolute;
-    top: 300%;
-  }
-}
+
 
 /* footer */

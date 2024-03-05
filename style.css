@@ -1,5 +1,5 @@
   html, body {
-    height: 120%;
+    height: 100%;
   }
 
   body, h1, h2, p {
@@ -68,7 +68,7 @@
 
   .topnav2 #myLinks {
     display: none;
-    background-color:rgba(0, 0, 0, 0.7);
+    background-color:rgba(0, 0, 0, 0.9);
 
   }
 
@@ -606,46 +606,16 @@
 
 
 
-  /* Media Queries for Responsive Design */
-@media only screen and (max-width: 500px) {
-  .topnav ul {
-      display: none;
-  }
 
-  .mobile-container {
-      display: block;
-  }
 
-  .foto {
-    margin-top: 15%;
-width: 70%;
-margin-left: 15%;
-  }
 
+/* responsive */
+@media only screen and (max-width: 414px) {
   .name {
-      font-size: 1.5em;
     margin-top: 5%;
-    margin-left: 33%;
-  }
+    font-size: 30px;
+    margin-left: 15%;
 
-  .aboutme {
-    font-size: 17px ;
-      padding: 0 20px;
-      width: 95%;
-      margin-left: 2%;
-  text-align: center;
-
-  }
-
-  .footer .row {
-      flex-direction: column;
-  }
-  .title{
-    margin-left: 25%;
-  }  
-
-  /* animation */
-  .name {
     -moz-animation-duration: 3s;
     -webkit-animation-duration: 2s;
     -moz-animation-name: slidein-left;
@@ -671,26 +641,66 @@ margin-left: 15%;
     }
 
     to {
-      margin-left: 33%;
+      margin-left: 15%;
       width: 100%;
     }
   }
-/* animation */
 
-.topnav2{
-  visibility: visible;
-  margin-left: 35%;
-  position: absolute;
-margin-left: 0%;
-}
-.icon{
-  margin-left: 30%;
-}.active2{
-  margin-left: 30%;
-}.links{
-  text-align: center;
-}
-}
 
+  .title{
+    margin-top: -10vh;
+    margin-left: 13vw
+  }
+
+  .aboutme {
+    font-size: 14px;
+    width: 70vw;
+    margin-left: 7%;
+  }
+
+  .foto {
+    width: 220px;
+  }
+
+
+
+  hr {
+    width: 70%;
+    margin-left: 15%;
+  }
+
+  .buttons {
+    margin-left: 10%;
+  }
+
+  .button {
+    width: 90%;
+  }
+
+  .icons {
+    margin-top: 10%;
+  }
+
+  .footer {
+    top: 200%;
+  }
+
+  .footer2 {
+    top: 370%;
+  }
+  .topnav2{
+    visibility: visible;
+  }
+  .active2{
+    margin-left: 13vw;
+  }
+  .topnav{
+    visibility: hidden;
+  }
+  .main{
+
+  }
+}
+/* responsive */
 
 
